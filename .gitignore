@@ -1,0 +1,22 @@
+# 실제 업무 데이터와 로그인 정보
+outputs/data/*
+!outputs/data/.gitkeep
+
+# 테스트 및 임시 산출물
+work/
+
+# Node/운영체제 임시 파일
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# 분리된 Git 메타데이터
+.git-initial/
+
+# 샌드박스용 Git 메타데이터
+git-data/
+
+# 공개하지 않는 인증서 원본과 미리보기
+private-documents/
+
